@@ -1,0 +1,16 @@
+Var,Importance
+gender_count,0.0012574407419389882
+gender_avg_balance,0.001331516120870977
+is_active_count,0.003453581803553325
+is_active_avg_balance,0.003556980448322307
+gender_and_active_count,0.004459443571477739
+occupation_count,0.0072024885889445
+gender_and_occupation_count,0.009922774425985935
+occupation_avg_balance,0.01444944506047136
+credit_product_count,0.029084383239159534
+gender_and_channelcode_count,0.04140914002663933
+channel_code_count,0.042503909672796075
+region_code_count,0.13604289482758417
+age,0.205411144556244
+vintage,0.21884645785334808
+log_avg_account_balance,0.28106839906266373

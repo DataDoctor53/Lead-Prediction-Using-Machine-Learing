@@ -1,0 +1,16 @@
+Var,Importance
+gender_count,4
+is_active_count,9
+gender_avg_balance,29
+occupation_count,45
+gender_and_active_count,102
+channel_code_count,114
+gender_and_occupation_count,125
+gender_and_channelcode_count,164
+is_active_avg_balance,188
+occupation_avg_balance,196
+credit_product_count,200
+vintage,715
+age,755
+region_code_count,824
+log_avg_account_balance,880

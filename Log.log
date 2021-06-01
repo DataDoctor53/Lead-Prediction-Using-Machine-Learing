@@ -1,0 +1,26 @@
+[2021-05-31 10:30:33,083] (INFO): Message: @utor: Vishal @email: vishalsjadhav53@gmail.com 
+[2021-05-31 16:11:11,140] (INFO): NumExpr defaulting to 8 threads.
+[2021-05-31 19:28:12,432] (INFO): Message:  @utor: Vishal @email: vishalsjadhav53@gmail.com 
+[2021-05-31 19:28:20,889] (INFO): NumExpr defaulting to 8 threads.
+[2021-05-31 19:29:17,916] (INFO): Message: Observed missing values in credit_product column 
+[2021-05-31 19:31:25,760] (INFO): Message: We have 11.92% of missings in credit_product column 
+[2021-05-31 19:39:10,741] (INFO): Message: credit_product has 11.92% missing. 
+[2021-05-31 20:21:05,304] (INFO): Message:  credit_product has 11.92% missing. 
+[2021-06-01 08:51:26,084] (INFO): Message:  
+[2021-06-01 08:59:36,841] (INFO): Message:  
+[2021-06-01 08:59:56,250] (INFO): Message:  
+[2021-06-01 09:01:50,750] (INFO): Message:  
+[2021-06-01 13:51:44,247] (INFO): NumExpr defaulting to 8 threads.
+[2021-06-01 13:53:14,338] (INFO): Message:  
+[2021-06-01 13:53:58,922] (INFO): Message:  
+[2021-06-01 13:54:34,458] (INFO): Message:  
+[2021-06-01 16:30:43,340] (INFO): Model used: RF, Model Parameters: n_estimators=100, Evaluation Metrics: roc_auc_score, Evaluation Score: 0.7537181288895882, Additional Info: cross val score 0.887116293404904
+[2021-06-01 16:31:37,168] (INFO): Message: removed 'gender_count','gender_avg_balance','is_active_count','is_active_avg_balance' less important 
+[2021-06-01 16:51:29,035] (INFO): Message: After removing avg cross_val_score 0.8881674349380215, roc_auc_score 0.7550660325441668 
+[2021-06-01 18:15:49,624] (INFO): Model used: Logistic without oversampling , Model Parameters: , Evaluation Metrics: roc_auc_score, Evaluation Score: 0.7125695002185306, Additional Info: cross_val_score is 0.7128278880865071
+[2021-06-01 18:17:15,776] (INFO): Model used: Logistic with oversampling , Model Parameters: default, Evaluation Metrics: roc_auc_score, Evaluation Score: 0.7165180595367873, Additional Info: cross_val_score  0.7162316221668198, Recall for 1's 0.68 
+[2021-06-01 18:19:27,609] (INFO): Model used: Random Forest without oversampling, Model Parameters: n_estimators=100 and default, Evaluation Metrics: roc_auc_score, Evaluation Score: 0.7607053489757161, Additional Info: cross_val_score 0.7621545805138992, Recall for 1's 0.43 is 
+[2021-06-01 18:21:16,404] (INFO): Model used: Random Forest with oversampling, Model Parameters: n_estimators=100, Evaluation Metrics: roc_auc_score, Evaluation Score: 0.7546323647358728, Additional Info: cross_val_score 0.8868676149802518, Recall for 1s 50%
+[2021-06-01 18:23:48,700] (INFO): Model used: CatBoostClassifier on noraml, Model Parameters: n_estimators = 20,learning_rate = 0.02,rsm = 0.4 ,random_state=2054,verbose=False , Evaluation Metrics: roc_auc_score, Evaluation Score: 0.775494262612171, Additional Info: cross_val_score 0.7764449784069134 recall for 1 is 30%
+[2021-06-01 18:26:04,338] (INFO): Model used: LGBMClassifier, Model Parameters: (     boosting_type='gbdt',     num_leaves=30,     max_depth=7,     learning_rate=0.1,     n_estimators=150,     categorical_feature=[6,7,8,9,10,11,12,13,14],     subsample_for_bin=200000,     objective=None,     class_weight=None,     min_split_gain=0.0,     min_child_weight=0.001,     min_child_samples=20,     subsample=1.0,     subsample_freq=0,     colsample_bytree=1.0,     reg_alpha=0.0,     reg_lambda=0.0,     random_state=42,     n_jobs=-1,     silent=True,     importance_type='split' ), Evaluation Metrics: roc_auc_score, Evaluation Score: 0.7942886958975651, Additional Info: cross_val_score 0.846385041318096
+[2021-06-01 18:27:11,689] (INFO): Message: ########@@@@@ END @@@@@@#### Thank you #######@@@@@@@@ 
